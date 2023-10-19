@@ -77,6 +77,7 @@ export default class Chart extends PureComponent<Props> {
 const styles = StyleSheet.create({
   webView: {
     flex: 1,
-    backgroundColor: "transparent"
+    backgroundColor: "transparent",
+    opacity: 0.99,
   }
 });
